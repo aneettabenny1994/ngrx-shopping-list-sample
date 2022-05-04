@@ -28,3 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 *************************************************************
 To install ngRx store package : npm i @ngrx/store
+
+## Adding a local repository to GitHub using Git
+https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
+
+$ git remote add origin  <REMOTE_URL> 
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+$ git push origin main
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
