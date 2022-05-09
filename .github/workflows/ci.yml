@@ -44,16 +44,12 @@ jobs:
       
       - name: Install dependencies
         run: npm install
-        env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Build
         run: npm run build:ci
-        env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Test
         run: npm run test:ci
-        env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        # env:
+        # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
